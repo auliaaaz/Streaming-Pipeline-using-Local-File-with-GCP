@@ -17,6 +17,7 @@ gcloud auth application-default login
 ### Text Classification with BigQuery ML
 For full guide, you can refer to [this](https://cloud.google.com/bigquery/docs/text-embedding-semantic-search#console_1). But before feeding the model, I do some simple preprocessing in BigQuery.
 1. Change the term to its abbreviation
+   
    Because in the dataset, there are some term that need to expand to make a better understanding to the model.
    
     ```
